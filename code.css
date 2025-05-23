@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e; /* Dark blue cyberpunk-ish background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Prevents scrollbars if canvas is slightly off */
+}
+
+#game-container {
+    /* Canvas will be centered by body's flex properties */
+    /* We can add specific styling for the container if needed later */
+}
+
+canvas {
+    /* Phaser will create this element. This is just to ensure it behaves. */
+    display: block;
+}
